@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "262355213847",
+    "project_id": "todo-app-caade",
+    "storage_bucket": "todo-app-caade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262355213847:android:e4b7d3c8d6dca2ff31c652",
+        "android_client_info": {
+          "package_name": "com.example.firebase_todoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262355213847-e5rbjcoti927iuln9r3smodipc5154kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI__f77BjxArXn_7f90IcZNILCXA2iKD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262355213847-e5rbjcoti927iuln9r3smodipc5154kl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
