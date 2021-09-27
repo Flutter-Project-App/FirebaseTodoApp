@@ -10,6 +10,12 @@ class TodosBloc extends Bloc<TodosEvent, TodosState> {
       : _todosRepository = todosRepository,
         super(TodosLoading()) {
     on<LoadTodos>(_onLoadTodos);
+    on<AddTodo>(_onAddTodo);
+    on<UpdateTodo>(_onUpdateTodo);
+    on<DeleteTodo>(_onDeleteTodo);
+    on<ToggleAll>(_onToggleAll);
+    on<ClearCompleted>(_onClearCompleted);
+    on<TodosUpdate>(_onTodosUpdated);
   }
 
   final TodosRepository _todosRepository;

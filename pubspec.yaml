@@ -30,6 +30,7 @@ dependencies:
   equatable:
   firebase_core:
   firebase_auth:
+  google_sign_in:
   uuid:
   flutter_bloc:
 
